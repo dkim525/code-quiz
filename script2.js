@@ -179,7 +179,7 @@ function allDone() {
             allScores.push(finalScore);
             var newScore = JSON.stringify(allScores);
             localStorage.setItem("allScores", newScore);
-            window.location.replace("./index3.html");
+            window.location.replace("./index2.html");
         }
     });
 
